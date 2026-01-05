@@ -11,18 +11,18 @@
 # The site_name is shown in the page header and the browser window title
 #
 # Read more: https://zensical.org/docs/setup/basics/#site_name
-site_name = "Documentation"
+site_name = "The Zig Programming Language"
 
 # The site_description is included in the HTML head and should contain a
 # meaningful description of the site content for use by search engines.
 #
 # Read more: https://zensical.org/docs/setup/basics/#site_description
-site_description = "A new project generated from the default template project."
+site_description = "Learn the Zig programming language through comprehensive tutorials and examples."
 
 # The site_author attribute. This is used in the HTML head element.
 #
 # Read more: https://zensical.org/docs/setup/basics/#site_author
-site_author = "<your name here>"
+site_author = "Zig Community"
 
 # The site_url is the canonical URL for your site. When building online
 # documentation you should set this.
@@ -44,10 +44,26 @@ Copyright &copy; 2025 The authors
 # can be defined using TOML syntax.
 #
 # Read more: https://zensical.org/docs/setup/navigation/
-# nav = [
-#   { "Get started" = "index.md" },
-#   { "Markdown in 5min" = "markdown.md" },
-# ]
+nav = [
+  { "Home" = "index.md" },
+  { "Foreword" = "foreword.md" },
+  { "Introduction" = "introduction.md" },
+  { "Getting Started" = [
+    { "1. Getting Started" = "ch01/index.md" },
+    { "1.1. Installation" = "ch01/01-installation.md" },
+    { "1.2. Hello, World!" = "ch01/02-hello-world.md" },
+    { "1.3. Hello, Zig Build!" = "ch01/03-hello-zig-build.md" },
+  ]},
+  { "2. Programming a Guessing Game" = "ch02/index.md" },
+  { "Common Programming Concepts" = [
+    { "3. Common Programming Concepts" = "ch03/index.md" },
+    { "3.1. Variables and Mutability" = "ch03/01-variables-and-mutability.md" },
+    { "3.2. Data Types" = "ch03/02-data-types.md" },
+    { "3.3. Functions" = "ch03/03-functions.md" },
+    { "3.4. Comments" = "ch03/04-comments.md" },
+    { "3.5. Control Flow" = "ch03/05-control-flow.md" },
+  ]},
+]
 
 # With the "extra_css" option you can add your own CSS styling to customize
 # your Zensical project according to your needs. You can add any number of
@@ -302,5 +318,3 @@ toggle.name = "Switch to light mode"
 #[[project.extra.social]]
 #icon = "fontawesome/brands/github"
 #link = "https://github.com/user/repo"
-
-
