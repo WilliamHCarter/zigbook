@@ -63,6 +63,12 @@ nav = [
     { "3.4. Comments" = "ch03/04-comments.md" },
     { "3.5. Control Flow" = "ch03/05-control-flow.md" },
   ]},
+  { "Understanding Memory Management" = [
+    { "4. Understanding Memory Management" = "ch04/index.md" },
+    { "4.1. Memory and Allocators" = "ch04/01-memory-and-allocators.md" },
+    { "4.2. Allocator Patterns" = "ch04/02-allocator-patterns.md" },
+    { "4.3. Slices and Pointers" = "ch04/03-slices-and-pointers.md" },
+  ]},
 ]
 
 # With the "extra_css" option you can add your own CSS styling to customize

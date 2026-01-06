@@ -17,6 +17,7 @@ This book will guide you through learning Zig, starting with installation and ba
 - [Chapter 1: Getting Started](ch01/index.md)
 - [Chapter 2: Programming a Guessing Game](ch02/index.md)
 - [Chapter 3: Common Programming Concepts](ch03/index.md)
+- [Chapter 4: Understanding Memory Management](ch04/index.md)
 
 ## About This Book
 
