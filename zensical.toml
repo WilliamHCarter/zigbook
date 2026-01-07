@@ -75,6 +75,12 @@ nav = [
     { "5.2. An Example Program Using Structs" = "ch05/02-example-program-using-structs.md" },
     { "5.3. Methods" = "ch05/03-methods.md" },
   ]},
+  { "Enums and Pattern Matching" = [
+    { "6. Enums and Pattern Matching" = "ch06/index.md" },
+    { "6.1. Defining an Enum" = "ch06/01-defining-an-enum.md" },
+    { "6.2. Switch and Pattern Matching" = "ch06/02-switch-and-pattern-matching.md" },
+    { "6.3. Optional Types and Null Safety" = "ch06/03-optional-types-and-null-safety.md" },
+  ]},
 ]
 
 # With the "extra_css" option you can add your own CSS styling to customize
