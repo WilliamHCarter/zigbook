@@ -20,6 +20,7 @@ This book will guide you through learning Zig, starting with installation and ba
 - [Chapter 4: Understanding Memory Management](ch04/index.md)
 - [Chapter 5: Using Structs to Structure Related Data](ch05/index.md)
 - [Chapter 6: Enums and Pattern Matching](ch06/index.md)
+- [Chapter 7: Error Handling](ch07/index.md)
 
 ## About This Book
 

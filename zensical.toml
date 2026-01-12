@@ -81,6 +81,12 @@ nav = [
     { "6.2. Switch and Pattern Matching" = "ch06/02-switch-and-pattern-matching.md" },
     { "6.3. Optional Types and Null Safety" = "ch06/03-optional-types-and-null-safety.md" },
   ]},
+  { "Error Handling" = [
+    { "7. Error Handling" = "ch07/index.md" },
+    { "7.1. Errors are Values" = "ch07/01-errors-are-values.md" },
+    { "7.2. Propagating Errors with try" = "ch07/02-propagating-errors-with-try.md" },
+    { "7.3. Error Handling Strategies" = "ch07/03-error-handling-strategies.md" },
+  ]},
 ]
 
 # With the "extra_css" option you can add your own CSS styling to customize
