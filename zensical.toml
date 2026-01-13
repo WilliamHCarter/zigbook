@@ -87,6 +87,12 @@ nav = [
     { "7.2. Propagating Errors with try" = "ch07/02-propagating-errors-with-try.md" },
     { "7.3. Error Handling Strategies" = "ch07/03-error-handling-strategies.md" },
   ]},
+  { "Writing Automated Tests" = [
+    { "8. Writing Automated Tests" = "ch08/index.md" },
+    { "8.1. How to Write Tests" = "ch08/01-how-to-write-tests.md" },
+    { "8.2. Controlling How Tests Are Run" = "ch08/02-controlling-how-tests-are-run.md" },
+    { "8.3. Test Organization" = "ch08/03-test-organization.md" },
+  ]},
 ]
 
 # With the "extra_css" option you can add your own CSS styling to customize
